@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Midterm Project Data visualisation</title>
+
+    <!-- Libraries -->
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+    <script src="lib/d3.js"></script>
+    <script src="lib/d3.min.js"></script>
+
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ 
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Main sketch file -->
+    <script src="sketch.js"></script>
+
+    <!-- Main visualisation files -->
+    <script src="tech-diversity-race.js"></script>
+    <script src="pay-gap-by-job-2017.js"></script>
+    <script src="crypto-candle-chart.js"></script>
+    <script src="crypto-investment-chart.js"></script>
+    <script src="fractals.js"></script>
+
+
+    <!-- Add extra scripts below -->
+    <script src="helper-functions.js"></script>
+    <script src="gallery.js"></script>
+    <script src="pie-chart.js"></script>
+    <script src="CandleChart-Data.js"></script>
+    <script src="Investement-Data.js"></script>
+  </head>
+  <body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-left">
+      <div class="logo">
+        <img src="data/images/UOL_Logo.png" style="width:210px;height:70px;">
+      </div>
+      <a class="navbar-brand" href="index.html">Juan Gomez ITP2 Project</a>
+      
+      <ul id="visuals-menu" class="nav navbar-nav"></ul>
+    </div>
+
+    <div class="Info">
+      <h2 id="extension_title">Welcome To The Data Visualization App</h2>
+      <p id="extension_explanation">Please choose any example from the bar on the left, the app is designed to operate on full screen</p>
+
+    </div>
+    
+    <div id="app" class="container">
+    </div>
+
+
+  </body>
+</html>

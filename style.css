@@ -1,0 +1,133 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(73, 73, 73);
+}
+
+.menu-item {
+    width: 250px;
+    height: 50px;
+    list-style-type: none;
+    padding: 15px;
+    color: aliceblue;
+}
+
+.hover {
+    background: rgb(55, 55, 55)
+}
+
+.selected{
+    background: rgb(0, 0, 0)
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.navbar-fixed-left {
+    width: 280px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+  }
+  
+  .navbar-fixed-left .navbar-nav > li {
+    float: none;  /* Cancel default li float: left */
+    width: 279px;
+  }
+  
+  .navbar-fixed-left + .container {
+    padding-left: 279px;
+  }
+  
+  /* On using dropdown menu (To right shift popuped) */
+  .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+    margin-top: -50px;
+    margin-left: 140px;
+  }
+
+
+.container {
+    margin: 0%;
+    margin-left: 400px;
+    padding-top: 0px;
+}
+
+.Info{
+
+    margin: 0%;
+    margin-left: 400px;
+    margin-right: 120px;
+    padding-top: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+select {
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    border-radius: 5%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://my.london.ac.uk/o/uol-dxp-theme/images/favicon.ico) 96% / 15% no-repeat #eee;
+}
+
+button {
+  background-color: rgb(25, 25, 25);
+  height: 50px;
+  width: 100px;
+  color: aliceblue;
+  border-radius: 4px;
+
+}
+
+
+#searchButton {
+  position: absolute; left: 450px; top: 160px;
+}
+
+#searchButton_ {
+  background-color: rgb(92, 92, 92);
+  background: url(data/images/search.png) no-repeat;
+  background-repeat: none;
+  cursor: pointer;
+  border: none;
+  background-size: 80%;
+  height: 50px;
+  width: 50px;
+
+}
+
+input {
+  position: absolute; left: 400px; top: 160px;
+  width: 150px;
+
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  border-radius: 5%;
+}
+
+input {
+  background-color: rgb(104, 104, 104);
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 120px;
+  height: 40px;
+  font-size: 22;
+}
+
+input:focus {
+  outline: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
